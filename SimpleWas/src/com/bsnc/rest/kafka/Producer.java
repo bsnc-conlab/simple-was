@@ -10,7 +10,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 
 public class Producer {
 
-	private static final String TOPIC_NAME = "justin";
+	private static final String TOPIC_NAME = "bsnc";
     private static final String FIN_MESSAGE = "exit";
 
     public static void main(String[] args) {
