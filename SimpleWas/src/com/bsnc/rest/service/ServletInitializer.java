@@ -1,4 +1,4 @@
-package com.bsnc.rest;
+package com.bsnc.rest.service;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

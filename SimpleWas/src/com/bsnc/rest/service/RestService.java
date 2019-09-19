@@ -1,4 +1,4 @@
-package com.bsnc.rest;
+package com.bsnc.rest.service;
 
 import java.util.Properties;
 
@@ -13,7 +13,7 @@ public class RestService {
 	
 	public static final String IP = "192.168.0.37";
 	public static final String PORT = "9092";
-	public static final String TOPIC_NAME = "justin";
+	public static final String TOPIC_NAME = "hd-bsnc";
 		
 	public static void main(String[] args) {
 		SpringApplication.run(RestService.class, args);

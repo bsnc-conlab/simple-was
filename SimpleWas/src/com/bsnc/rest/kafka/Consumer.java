@@ -1,4 +1,4 @@
-package com.bsnc.kafka;
+package com.bsnc.rest.kafka;
 
 import java.util.Arrays;
 import java.util.Properties;
