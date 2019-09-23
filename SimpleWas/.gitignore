@@ -1,6 +1,9 @@
 target/
-.settings/
 bin/
+
+.settings/
 .project
 .classpath
 .springBeans
+
+src/com/bsnc/rest/service/Config.java

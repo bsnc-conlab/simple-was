@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.bsnc.rest.model.CommonResponseBean;
 import com.bsnc.rest.model.ICommonResponseBean;
 import com.bsnc.rest.model.ResultResBean;
-import com.bsnc.rest.service.RestService;
+import com.bsnc.rest.service.Config;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
@@ -24,9 +24,9 @@ import com.google.gson.JsonParser;
 @RequestMapping("/bsnc")
 public class Controller {
 
-	String ip = RestService.IP;
-	String port = RestService.PORT;
-	String topic = RestService.TOPIC_NAME;
+	String ip = Config.IP;
+	String port = Config.PORT;
+	String topic = Config.TOPIC_NAME;
 
 	private final AtomicLong counter = new AtomicLong();
 
